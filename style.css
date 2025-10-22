@@ -1,0 +1,64 @@
+#box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: lightseagreen;
+    width: 400px;
+    height: auto;
+    margin: 0 auto;
+    padding: 0;
+    border-radius: 15px;
+    border: 10px solid rgb(136, 255, 1);
+    box-shadow: 10px 10px 10px rgb(2, 117, 98);
+    animation: pulse 3s infinite;
+}
+@keyframes pulse {
+    0% {
+    transform: scale(1);
+    opacity: 1;
+    }
+    50% {
+    transform:scale(1.02);
+    }
+    100% {transform: scale(1);
+}
+}
+.Headers {
+
+    background-color:lightseagreen; height:60px; width:400px; 
+    text-align:center;
+    color: lawngreen;
+}
+.Paragraph {
+
+    background-color: lightseagreen; height:50px; width:400px;
+    text-align: center;
+    color: rgb(217, 255, 0);
+}
+.Text {
+    text-align: center;
+    display: block;
+    color: rgb(255, 0, 242);
+    text-shadow: 1px 1px 2px black; 
+    animation: pulse 3s infinite;
+}
+#Parrots {
+    width: 300px;
+    display: block;
+    margin: auto;
+    border-radius: 50%;
+    animation: pulse 3s infinite;
+}
+body {
+    background-color: black;
+    background-image:url(/funny\ website/Images/Flames.gif);
+    background-size:100%;
+    background-repeat: repeat-y;
+    background-attachment: fixed;
+    min-height:100%;
+    width:100%;
+}
+html {
+    height: 100%;
+}
